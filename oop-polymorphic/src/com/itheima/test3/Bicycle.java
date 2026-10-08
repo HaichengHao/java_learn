@@ -1,0 +1,20 @@
+package com.itheima.test3;
+
+public class Bicycle extends Vehicle{
+    public Bicycle(){
+
+    }
+    public Bicycle(String brand, double speed) {
+        super(brand, speed);
+    }
+
+    @Override
+    public void move() {
+        System.out.println(getBrand()+"的自行车正在以"+getSpeed()+"km/h的速度移动");
+    }
+
+    //行为
+    public void ringBell(){
+        System.out.println("ling~ling~ling~");
+    }
+}
