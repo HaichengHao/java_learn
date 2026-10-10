@@ -19,7 +19,9 @@ public class Test9 {
 
 
 
-        //查找
+        //查找 indexOf(int ch)
+        //查找当前字符/字符串 第一次出现的索引
+        //如果当前要查找的内容不存在，方法会返回-1
         int index = s1.indexOf("一个");
         System.out.println(index);
 
@@ -31,7 +33,7 @@ public class Test9 {
         boolean res3 = s2.isEmpty();
         System.out.println(res3);
 
-        //转字符数组 toCharArray()
+        //转字符数组 toCharArray() 如 "abcd" - ["a" , "b" , "c" , "d"]
         char[] chs = s1.toCharArray();
         for(char c : chs){
             System.out.print(c);
@@ -46,7 +48,7 @@ public class Test9 {
         String s3_lowercase = s3_uppercase.toLowerCase();
         System.out.println(s3_lowercase);
 
-        //去除头尾空格 trim()
+        //去除头尾空格 trim(),这块儿和js中的一样,python中则是strip()
         String s4 = "  hello world  ";
         String s4_trim = s4.trim();
         System.out.println(s4_trim);
