@@ -1,4 +1,4 @@
-package com.itheima.apimath01;
+package com.itheima.mathapi01;
 
 import java.util.Scanner;
 

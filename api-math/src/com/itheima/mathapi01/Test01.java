@@ -1,4 +1,4 @@
-package com.itheima.apimath01;
+package com.itheima.mathapi01;
 
 public class Test01 {
     static void main(String[] args) {
